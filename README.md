@@ -15,6 +15,7 @@ Column	Description
 | **Purchased**       | Target variable — 1 (Purchased), 0 (Not Purchased)      |
 
 **Steps**
+
 **Data Loading**
 ```python
 # Importing core Python data science libraries
@@ -92,4 +93,10 @@ np.round(x_train_df.describe(), 2)
 ```
 
 <img width="339" height="319" alt="image" src="https://github.com/user-attachments/assets/68c8e119-9b66-401d-b7a7-cd94488d557a" />
+
+
+###  Conclusion:
+The results of `np.round(x_train_df.describe(), 2)` confirm that **standardization was successful**.  
+All features now have a **mean ≈ 0** and **standard deviation ≈ 1**, ensuring the data is **scaled, balanced, and ready for model training**.
+
 
