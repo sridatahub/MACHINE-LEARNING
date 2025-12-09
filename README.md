@@ -13,3 +13,13 @@ Column	Description
 | **Age**             | Age of the user in years                                |
 | **EstimatedSalary** | Approximate annual salary of the user                   |
 | **Purchased**       | Target variable — 1 (Purchased), 0 (Not Purchased)      |
+
+**Steps**
+**Data Loading**
+```python
+# Importing core Python data science libraries
+import numpy as np              # For numerical operations
+import pandas as pd             # For data handling and analysis
+import matplotlib.pyplot as plt # For data visualization (plots and charts)
+import seaborn as sns           # For advanced statistical visualizations
+'''
